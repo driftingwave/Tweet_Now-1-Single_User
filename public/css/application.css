@@ -1,0 +1,57 @@
+.container {
+  position :relative;
+  left :100px;
+  margin: 20px auto;
+  width: 800px;
+  padding: 0px 20px 20px 20px;
+  border: 1px dotted black;
+}
+
+div #latest_and_new_tweets {
+  padding: 10px 0;
+  border-top: 1px solid #ddd;
+}
+
+li {
+  list-style-type: none;
+  padding: 6px;
+  background-color: #ddd;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  margin: 5px 0px;
+}
+
+
+#new_tweet_button {
+  margin-bottom: 10px;
+  position: relative;
+  left: 40px;
+  border-radius: 3px;
+  background-color: white;
+  font-style: italic;
+}
+
+
+form#new_tweet_form {
+  position: relative;
+  left: 40px;
+  width: 425px;
+  background-color: #a7adb4 ;
+  padding: 6px;
+  border: 1px solid #666;
+  border-radius: 3px;
+}
+
+input#submit_tweet {
+  font-style: italic;
+  font-size: 0.8em;
+  color: black;
+  background-color: #eff0f1;
+  float: right;
+  padding: 5px;
+  border: 1px solid;
+}
+
+.new_tweet {
+  display: none;
+}

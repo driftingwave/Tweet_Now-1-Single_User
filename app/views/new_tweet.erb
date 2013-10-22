@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+<head>
+  <title>New Tweet</title>
+</head>
+
+
+<body>
+  <div class="container">
+    <h2>Connect with us, tweet!</h2>
+
+    <div id="latest_and_new_tweets">
+
+      <ul id="latest_tweet">
+        <h4>Latest tweet</h4>
+        <li class="tweet_item">
+          <span class="tweet_text"><%= @latest_tweet.text%></span><br>
+          <span class="tweet_date"><%= @latest_tweet.authored_date.strftime ('%m/%d/%Y at %I:%M%p') %></span>
+        </li>
+      </ul>
+
+      <button id="new_tweet_button">New Tweet</button>
+
+      <div class="new_tweet">
+        <form id="new_tweet_form">
+        </form>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
